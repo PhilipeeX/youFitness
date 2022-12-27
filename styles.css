@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 header {
@@ -9,5 +13,20 @@ header {
 
 .cabecalho-e-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho-e-nav a {
+    font-size: 18px ;
+}
+
+.texto-principal-e-imagem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img.imagem-principal {
+    width: 300px;
 }
