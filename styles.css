@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+body{
+    font-size: 100%;
+}
+
 header {
     background-color: #1f2937;
 }
@@ -15,18 +19,104 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 24px;
 }
 
-.cabecalho-e-nav a {
+.logotipo-da-pagina{
+    height: 46px;
+}
+
+.cabecalho-links {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-links-item {
+    font-family: 'Righteous', cursive;
     font-size: 18px ;
+    color: #E5E7EB;
 }
 
 .texto-principal-e-imagem {
+    border-top: 1px solid #E5E7EB;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 64px 0;
 }
 
-img.imagem-principal {
-    width: 300px;
+.texto-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.texto-principal h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.texto-principal p{
+    font-family: 'Righteous', cursive;
+    font-size: 18px ;
+    color: #E5E7EB;
+} 
+
+.texto-principal-botao {
+    background-color: #3882f6;
+    width: 185px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px #010117;
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    font-size: 18px ;
+    color: #E5E7EB;
+}
+
+.imagem-principal {
+    height: 220px;
+}
+
+.ilustracoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card {
+    border: solid 2px #3882f6;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    flex-basis: 200px;
+    box-shadow: 4px 5px 4px #010117;
+}
+
+.imagem-card {
+    height: 200px;
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 05px;
+    -webkit-border-bottom-right-radius: 05px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomleft: 05px;
+    -moz-border-radius-bottomright: 05px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 05px;
+    border-bottom-right-radius: 05px;
+    
 }
