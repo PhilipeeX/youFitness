@@ -159,7 +159,7 @@ header {
 }
 
 .destaque-signup {
-    padding: 100px 160px;
+    padding: 100px 120px;
 }
 
 .destaque-signup-texto-botao {
@@ -168,6 +168,7 @@ header {
     padding: 48px 84px;
     justify-content: space-between;
     border-radius: 10px;
+    gap: 32px;
 }
 
 .texto-destaque h3 {
@@ -199,10 +200,9 @@ header {
 }
 
 footer {
-    padding: 48px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    padding: 48px;
     background-color: #1f2937;
 }
 
