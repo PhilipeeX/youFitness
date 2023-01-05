@@ -38,11 +38,11 @@ header {
 }
 
 .texto-principal-e-imagem {
-    border-top: 1px solid #E5E7EB;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 64px 0;
+    gap: 32px;
+    padding: 86px 0;
 }
 
 .texto-principal{
@@ -75,6 +75,10 @@ header {
     color: #E5E7EB;
 }
 
+.texto-principal-botao:hover {
+    cursor: pointer;
+}
+
 .imagem-principal {
     height: 220px;
 }
@@ -85,12 +89,20 @@ header {
     align-items: center;
 }
 
+.titulo-principal-do-corpo {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 32px 0;
+}
+
 .cards {
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 16px;
+    padding-bottom: 64px;
 }
 
 .card {
@@ -102,6 +114,7 @@ header {
     border-radius: 20px;
     flex-basis: 200px;
     box-shadow: 4px 5px 4px #010117;
+    gap: 8px;
 }
 
 .imagem-card {
@@ -118,5 +131,83 @@ header {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 05px;
     border-bottom-right-radius: 05px;
-    
+}
+
+.texto-card {
+    font-family: 'Righteous', cursive;
+    color: #1f2937;
+}
+
+.texto-motivacional {
+    background-color: #E5E7EB;
+    padding: 100px 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-motivacional-principal {
+    align-self: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.texto-motivacional-autor {
+    align-self: flex-end;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.destaque-signup {
+    padding: 100px 160px;
+}
+
+.destaque-signup-texto-botao {
+    display: flex;
+    background-color: #3882f6;
+    padding: 48px 84px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.texto-destaque h3 {
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    color: #F9FAF8;
+}
+
+.texto-destaque p {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.destaque-signup-botao {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-color: #E5E7EB;
+    border-radius: 10px;
+    border: solid 2px;
+    padding: 0 40px;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+}
+
+.destaque-signup-botao:hover {
+    cursor: pointer;
+}
+
+footer {
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.texto-do-footer {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
 }
