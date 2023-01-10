@@ -13,7 +13,7 @@
     <div class="conteiner">
     <header>
         <section class="cabecalho-e-nav">
-        <img class="logotipo-da-pagina" src="imagens\logotipo-fundo-transparente2.png" alt="Logotipo da página">
+        <a href="index.html"><img class="logotipo-da-pagina" src="imagens\logotipo-fundo-transparente2.png" alt="Logotipo da página"/></a>
         <div class="cabecalho-links">
             <a class="cabecalho-links-item" rel="#">Link um</a>
             <a class="cabecalho-links-item" rel="#">Link dois</a>
@@ -27,7 +27,10 @@
                 <p>Crie seu protocolo, acompanhe sua evolução e tenha ótimos resultados.</p>
                 <button class="texto-principal-botao">Inscreva-se</button>
             </div>
-            <img class="imagem-principal" src="imagens\imagem-principal.jpg" alt="Uma barra com pesos e uma pessoa atrás">
+            <picture class="imagem-principal">
+                <source media="(min-width: 900px)" srcset="imagens\imagem-principal-grande.jpg">
+                <img class="imagem-principal-class" width="100%" src="imagens\imagem-principal.jpg" alt="Uma barra com pesos e uma pessoa atrás">
+            </picture>
         </section>
     </header>
 
